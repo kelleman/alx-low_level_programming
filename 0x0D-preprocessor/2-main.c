@@ -1,10 +1,11 @@
 #include <stdio.h>
-/*This program prints the name of thid file
- * 2-main.c */
+/**
+ *main - prints file name
+ * Return: 0 if successful
+ */
 
-int main()
+int main(void)
 {
-	printf("%s", __FILE__);
-	
-	return 0;
+	printf("%s\n", __FILE__);
+	return (0);
 }
